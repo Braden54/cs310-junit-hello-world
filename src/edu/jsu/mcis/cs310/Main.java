@@ -17,7 +17,9 @@ public class Main {
     }
     
     public String reverse(String message) {
-        return message;
+        StringBuilder builder = new StringBuilder(message);
+        builder.reverse();
+        return builder.toString();
     }
     
 }
